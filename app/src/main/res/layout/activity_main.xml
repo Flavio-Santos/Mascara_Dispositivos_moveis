@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.santos.flavio.mascara.MainActivity">
+
+    <TextView
+        android:id="@+id/labelCPF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mascara Cep"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="4dp" />
+
+    <EditText
+        android:id="@+id/cepEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:maxLength="14"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="28dp" />
+
+    <TextView
+        android:id="@+id/labelRg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mascara RG"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="110dp" />
+
+    <EditText
+        android:id="@+id/rgMasc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="129dp" />
+
+</LinearLayout>
